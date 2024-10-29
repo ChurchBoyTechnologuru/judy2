@@ -1,0 +1,47 @@
+create json file for the data
+
+
+{
+    "guests": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "occupation": "Comedian",
+            "catchphrase": "That's what she said!"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "occupation": "Actor",
+            "catchphrase": "How you doin'?"
+        }
+    ],
+    "episodes": [
+        {
+            "id": 1,
+            "title": "Pilot Episode",
+            "air_date": "2023-01-01",
+            "number": 1
+        },
+        {
+            "id": 2,
+            "title": "The One With The Guest",
+            "air_date": "2023-01-08", 
+            "number": 2
+        }
+    ],
+    "appearances": [
+        {
+            "id": 1,
+            "rating": 5,
+            "guest_id": 1,
+            "episode_id": 1
+        },
+        {
+            "id": 2,
+            "rating": 4,
+            "guest_id": 2,
+            "episode_id": 2
+        }
+    ]
+}
